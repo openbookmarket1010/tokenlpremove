@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"  # Build command, apne project ke hisab se update karein
+  publish = "build"          # Publish directory, apne project ke hisab se update karein
+
+[build.environment]
+  NODE_VERSION = "14"        # Node.js version ko apne project ke hisab se set karein
+  
